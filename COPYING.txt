@@ -1,6 +1,6 @@
 Copyright © 2022-present 
 
-This file is part of Genaker/EmojiGame.
+This file is part of Genaker/Minersweeper.
 
 Genaker/EmojiGame is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
