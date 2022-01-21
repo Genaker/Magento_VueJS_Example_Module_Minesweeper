@@ -1,17 +1,17 @@
-# Magento 2 Module React JS EmojiGame
+# Magento 2 Module Vue JS MinerSweeper 
 
-In this project, let's build an **Emoji Game Magento React Extension** by applying the concepts of the Magento React UI Components.
+In this project, let's build an **Minesweeper Game Magento Vue JS Extension** by applying the concepts of the Magento Vue UI Components.
 
 ### Refer to the image below:
 
 <br/>
 <div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/emoji-game-output-v2.gif" alt="emoji-game-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+![image](https://user-images.githubusercontent.com/9213670/150458256-cb38dd20-8446-4b29-b4f2-8396a5130959.png)
 </div>
 <br/>
 
 ### Set Up Instructions
 
 ```
-composer require genaker/module-react-emojigame
+composer require genaker/module-vuejs-minesweeper
 ```
