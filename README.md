@@ -4,11 +4,7 @@ In this project, let's build an **Minesweeper Game Magento Vue JS Extension** by
 
 ### Refer to the image below:
 
-<br/>
-<div style="text-align: center;">
-![image](https://user-images.githubusercontent.com/9213670/150458679-54dd69ad-aa75-4954-aea9-9535e79b42cf.png)
-</div>
-<br/>
+![image](https://user-images.githubusercontent.com/9213670/150458715-95aced52-fed1-49db-9bc7-45ad37f48357.png)
 
 ### Set Up Instructions
 
