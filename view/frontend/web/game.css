@@ -1,0 +1,239 @@
+/* Write your code here. */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+    min-height: 100vh;
+  }
+  .emoji-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .emojis-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+
+  /* Write your code here. */
+.emoji-item {
+    list-style-type: none;
+    width: 20%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 0px;
+  }
+  @media screen and (min-width: 992px) {
+    .emoji-item {
+      width: 24%;
+    }
+  }
+  .emoji-button {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #ffffff33;
+    width: 80%;
+    height: 80px;
+    border: 3px solid #ffffff30;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    margin: 0px;
+  }
+  @media screen and (min-width: 768px) {
+    .emoji-button {
+      height: 150px;
+    }
+  }
+  .emoji-img {
+    width: 40px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .emoji-img {
+      width: 80px;
+    }
+  }
+
+  /* Write your code here. */
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff33;
+    padding: 8px;
+  }
+  .navbar-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Roboto';
+    width: 80%;
+  }
+  .logo-title-container {
+    display: flex;
+    align-items: center;
+  }
+  .emoji-logo {
+    width: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    .emoji-logo {
+      width: 48px;
+    }
+  }
+  .title {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .title {
+      font-size: 24px;
+    }
+  }
+  .scores-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .score {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    .score {
+      font-size: 24px;
+      margin-left: 32px;
+    }
+  }
+
+  
+  .win-lose-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff33;
+    width: 85%;
+    border: 3px solid #ffffff30;
+    border-radius: 25px;
+    margin: auto;
+    padding: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .win-lose-container {
+      width: 80%;
+      padding: 32px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .win-lose-container {
+      flex-direction: row;
+      width: 70%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .win-lose-container {
+      width: 60%;
+    }
+  }
+  .score-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    font-family: 'Roboto';
+  }
+  @media screen and (min-width: 992px) {
+    .score-details-container {
+      order: 0;
+    }
+  }
+  .game-status {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  @media screen and (min-width: 992px) {
+    .game-status {
+      font-size: 55px;
+    }
+  }
+  .your-score-status {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  @media screen and (min-width: 992px) {
+    .your-score-status {
+      font-size: 36px;
+      margin-bottom: 0px;
+    }
+  }
+  .your-score {
+    text-align: center;
+    font-size: 30px;
+    color: #6a59ff;
+    font-weight: bold;
+  }
+  @media screen and (min-width: 768px) {
+    .your-score {
+      font-size: 42px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  }
+  .play-again-button {
+    color: #3d3d3d;
+    background-color: #ffce27;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+  }
+  .image-section-container {
+    display: flex;
+    justify-content: center;
+    order: 0;
+  }
+  @media screen and (min-width: 992px) {
+    .image-section-container {
+      order: 1;
+    }
+  }
+  .win-lose-image {
+    width: 150px;
+    height: 200px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .win-lose-image {
+      width: 350px;
+      height: 450px;
+    }
+  }
